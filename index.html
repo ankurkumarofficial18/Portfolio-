@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ankur Kumar — Backend & Enterprise Software Developer</title>
+  <meta name="description" content="Ankur Kumar — Backend & Enterprise Software Developer from Patna. Oracle APEX, SQL, PL/SQL, Python and WordPress today; MERN, cloud, DevOps and AI engineering next." />
+  <meta name="theme-color" content="#fbfaf7" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Ankur Kumar — Backend & Enterprise Software Developer" />
+  <meta property="og:description" content="Oracle Technologies · Cloud & DevOps · AI Engineering." />
+  <meta property="og:image" content="assets/images/og-image.jpg" />
+
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+
+  <link rel="stylesheet" href="https://db.onlinewebfonts.com/c/5ac3fe7c6abd2f62067f266d89671492?family=HelveticaNowDisplay-Medium" />
+  <link rel="stylesheet" href="https://db.onlinewebfonts.com/c/1aa3377e489837a26d019bba501e779d?family=HelveticaNowDisplayW01-Rg" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    if (window.tailwind) tailwind.config = {
+      theme: { extend: { fontFamily: {
+        heading: ['HelveticaNowDisplay-Medium', 'Helvetica Neue', 'Arial', 'sans-serif'],
+        body: ['HelveticaNowDisplayW01-Rg', 'Helvetica Neue', 'Arial', 'sans-serif']
+      } } }
+    };
+  </script>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <!-- Hero background video (scrubbed by horizontal mouse movement) -->
+  <div id="bg-fallback" class="bg-fallback" aria-hidden="true"></div>
+  <video id="bg-video" class="bg-video" muted playsinline preload="auto" aria-hidden="true"
+         src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260826_041744_63efcd78-bf7d-4039-99e2-2461e8a61903.mp4"></video>
+  <div class="bg-overlay" aria-hidden="true"></div>
+
+  <!-- Navbar -->
+  <header id="site-header" class="site-header">
+    <a href="#home" class="brand" aria-label="Ankur Kumar — home">
+      <span class="font-heading brand-name">Ankur Kumar</span>
+      <span class="brand-star" aria-hidden="true">✳︎</span>
+    </a>
+
+    <nav class="nav-desktop" aria-label="Primary">
+      <ul class="nav-list">
+        <li><a class="nav-link" href="#about">About</a><span aria-hidden="true">,&nbsp;</span></li>
+        <li><a class="nav-link" href="#skills">Skills</a><span aria-hidden="true">,&nbsp;</span></li>
+        <li><a class="nav-link" href="#journey">Journey</a><span aria-hidden="true">,&nbsp;</span></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <a href="#contact" class="nav-cta">Let's Connect</a>
+
+    <button id="menu-btn" class="menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+    </button>
+  </header>
+
+  <!-- Mobile overlay -->
+  <div id="mobile-menu" class="mobile-menu" aria-hidden="true">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#journey">Journey</a>
+    <a href="#contact">Contact</a>
+    <a href="#contact" class="mm-cta">Let's Connect</a>
+  </div>
+
+  <main id="main" class="main">
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="hero-inner">
+        <p class="hero-label">Hey there, I'm Ankur Kumar,<br />Backend &amp; Enterprise Software Developer.</p>
+        <p id="typewriter" class="hero-type" aria-live="off"></p>
+
+        <div id="hero-pills" class="pills-hidden">
+          <a href="#about" class="pill">About Me</a>
+          <a href="#skills" class="pill">View My Skills</a>
+          <a href="#journey" class="pill">My Journey</a>
+          <a href="#contact" class="pill">Let's Connect</a>
+          <a href="assets/resume/resume.pdf" class="pill" download>Download CV</a>
+          <button id="copy-email" type="button" class="pill-outline" aria-label="Copy email address">
+            <span>Reach me: <span data-email>ankurkumarofficial18@gmail.com</span></span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><rect x="4" y="4" width="11" height="11" rx="2"/></svg>
+            <span id="copy-toast" class="copy-toast" role="status"></span>
+          </button>
+        </div>
+      </div>
+      <p class="hero-hint" aria-hidden="true">Move your cursor ↔ to scrub the background</p>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section section-light">
+      <div class="container-x">
+        <p class="eyebrow reveal">A little about me</p>
+        <div class="about-grid">
+          <figure class="portrait reveal">
+            <img src="assets/images/profile.jpg" alt="Illustrated portrait of Ankur Kumar" width="900" height="900" loading="lazy" />
+          </figure>
+
+          <div class="about-copy reveal">
+            <h2 class="lead">I'm Ankur Kumar, a BCA student and aspiring Backend &amp; Enterprise Software Developer based in Patna, Bihar.</h2>
+            <p class="body-lg">I have hands-on experience building database-driven applications with Oracle APEX, SQL and PL/SQL, and I build and customise WordPress websites. I'm now expanding into the MERN stack and modern web development, with cloud, DevOps and AI engineering as the next steps.</p>
+            <p class="positioning">Backend &amp; Enterprise Software Developer · Oracle Technologies · Cloud &amp; DevOps · AI Engineering</p>
+
+            <dl class="facts">
+              <div><dt>Education</dt><dd>BCA · IIBM Patna · 2025–2028</dd></div>
+              <div><dt>Enterprise</dt><dd>Oracle APEX, SQL, PL/SQL</dd></div>
+              <div><dt>Learning</dt><dd>MERN stack, cloud &amp; AI</dd></div>
+              <div><dt>Languages</dt><dd>Hindi (Native) · English (Professional)</dd></div>
+            </dl>
+
+            <div id="strengths" class="chips" aria-label="Core strengths"></div>
+          </div>
+        </div>
+
+        <h3 class="eyebrow eyebrow-gap reveal">What I work on</h3>
+        <div id="focus-grid" class="grid-cards cols-4"></div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section section-tint">
+      <div class="container-x">
+        <p class="eyebrow reveal">My technology stack</p>
+        <h2 class="h2 reveal">Honest skills, clearly labelled.</h2>
+        <p class="sub reveal">No made-up percentages. <strong>Core</strong> is what I've used in practical work, <strong>Working</strong> is hands-on but basic, and <strong>Exploring</strong> is what I'm actively learning.</p>
+
+        <div id="skill-filters" class="filters reveal" role="group" aria-label="Filter skills by level">
+          <button class="filter-btn is-active" data-filter="all" aria-pressed="true">All</button>
+          <button class="filter-btn" data-filter="core" aria-pressed="false">Core</button>
+          <button class="filter-btn" data-filter="working" aria-pressed="false">Working</button>
+          <button class="filter-btn" data-filter="exploring" aria-pressed="false">Exploring</button>
+        </div>
+
+        <div id="skills-grid" class="grid-cards cols-3"></div>
+
+        <div class="legend reveal" aria-label="Legend">
+          <span class="tag" data-level="core">Core</span>
+          <span class="tag" data-level="working">Working</span>
+          <span class="tag" data-level="exploring">Exploring</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- JOURNEY -->
+    <section id="journey" class="section section-light">
+      <div class="container-x">
+        <p class="eyebrow reveal">My journey</p>
+        <h2 class="h2 reveal">Education, hands-on work and what's ahead.</h2>
+        <ol id="timeline" class="timeline"></ol>
+      </div>
+    </section>
+
+    <!-- WHAT'S NEXT -->
+    <section id="exploring" class="section section-tint">
+      <div class="container-x">
+        <p class="eyebrow reveal">What's next?</p>
+        <h2 class="h2 reveal">Where I'm heading.</h2>
+        <p class="sub reveal">An evolving roadmap of what I'm learning — goals, not claims of professional experience.</p>
+        <ol id="roadmap" class="grid-cards cols-3"></ol>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section-light">
+      <div class="container-x">
+        <p class="eyebrow reveal">Have an idea? Let's build it.</p>
+        <div class="contact-grid">
+          <div class="reveal">
+            <h2 class="lead">I'm always interested in connecting with developers, engineers and technology enthusiasts who enjoy building meaningful software.</h2>
+            <ul class="contact-list">
+              <li><span>Email</span><a data-email-link href="mailto:ankurkumarofficial18@gmail.com"><span data-email>ankurkumarofficial18@gmail.com</span></a></li>
+              <li><span>Location</span><b>Patna, Bihar, India</b></li>
+              <li><span>GitHub</span><a data-github href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">GitHub profile</a></li>
+              <li><span>LinkedIn</span><a data-linkedin href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">LinkedIn profile</a></li>
+            </ul>
+            <a href="assets/resume/resume.pdf" download class="btn-dark">Download CV</a>
+          </div>
+
+          <form id="contact-form" class="form-card reveal" novalidate>
+            <div class="form-row">
+              <div>
+                <label for="f-name" class="lbl">Name</label>
+                <input id="f-name" name="name" type="text" autocomplete="name" class="field" required aria-describedby="e-name" />
+                <p id="e-name" class="err" role="alert"></p>
+              </div>
+              <div>
+                <label for="f-email" class="lbl">Email</label>
+                <input id="f-email" name="email" type="email" autocomplete="email" class="field" required aria-describedby="e-email" />
+                <p id="e-email" class="err" role="alert"></p>
+              </div>
+            </div>
+            <div>
+              <label for="f-subject" class="lbl">Subject</label>
+              <input id="f-subject" name="subject" type="text" class="field" required aria-describedby="e-subject" />
+              <p id="e-subject" class="err" role="alert"></p>
+            </div>
+            <div>
+              <label for="f-message" class="lbl">Message</label>
+              <textarea id="f-message" name="message" rows="3" class="field" required aria-describedby="e-message"></textarea>
+              <p id="e-message" class="err" role="alert"></p>
+            </div>
+            <div class="form-actions">
+              <button type="submit" class="btn-dark">Send message</button>
+              <p id="form-status" class="form-status" role="status"></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container-x footer-grid">
+      <div>
+        <p class="font-heading footer-brand">Ankur Kumar <span aria-hidden="true">✳︎</span></p>
+        <p class="footer-sub">Backend &amp; Enterprise Software Developer</p>
+      </div>
+      <nav aria-label="Footer">
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#journey">Journey</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <ul class="footer-links footer-social">
+        <li><a data-github href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a data-linkedin href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        <li><a data-email-link href="mailto:ankurkumarofficial18@gmail.com">Email</a></li>
+      </ul>
+    </div>
+    <div class="container-x footer-copy">© <span id="year">2026</span> Ankur Kumar. All Rights Reserved.</div>
+  </footer>
+
+  <button id="to-top" class="to-top" aria-label="Back to top">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
